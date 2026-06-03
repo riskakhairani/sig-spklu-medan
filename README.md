@@ -106,7 +106,6 @@
 sig-spklu-medan/
 ├── index.html          # Halaman utama — peta publik & statistik
 ├── admin.html          # Panel admin — CRUD data SPKLU
-├── netlify.toml        # Konfigurasi redirect Netlify
 └── README.md           # Dokumentasi ini
 ```
 
