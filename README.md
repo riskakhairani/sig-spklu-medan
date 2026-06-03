@@ -129,20 +129,6 @@ CREATE TABLE spklu (
 );
 ```
 
-### Konfigurasi RLS (Row Level Security)
-
-Agar admin panel bisa melakukan INSERT, UPDATE, dan DELETE, jalankan SQL berikut di **Supabase Dashboard → SQL Editor**:
-
-```sql
--- Izinkan SELECT untuk semua (publik)
-CREATE POLICY "public select" ON spklu FOR SELECT TO anon USING (true);
-
--- Izinkan INSERT, UPDATE, DELETE untuk anon (digunakan admin panel)
-CREATE POLICY "anon insert" ON spklu FOR INSERT TO anon WITH CHECK (true);
-CREATE POLICY "anon update" ON spklu FOR UPDATE TO anon USING (true) WITH CHECK (true);
-CREATE POLICY "anon delete" ON spklu FOR DELETE TO anon USING (true);
-```
-
 ---
 
 ## 🚀 Cara Deploy ke Netlify
