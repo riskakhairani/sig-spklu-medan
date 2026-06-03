@@ -25,7 +25,7 @@
 
 <br/>
 
-[🗺️ Lihat Demo](https://sig-spklu-medan.netlify.app) · [🐛 Laporkan Bug](https://github.com/riskakhairani/sig-spklu-medan/issues) · [💡 Usul Fitur](https://github.com/riskakhairani/sig-spklu-medan/issues)
+[🗺️ Lihat Demo](https://sig-spklu-medan.netlify.app) · [💡 Usul Fitur](https://github.com/riskakhairani/sig-spklu-medan/issues)
 
 </div>
 
