@@ -176,8 +176,8 @@ Persebaran SPKLU mencakup wilayah: **Medan Baru · Medan Petisah · Medan Poloni
   </tr>
 </table>
 
-**Judul Penelitian:** Pemetaan Lokasi Stasiun Pengisian Kendaraan Listrik (SPKLU) di Kota Medan  
-**Bidang Studi:** Teknologi Rekayasa Perangkat Lunak  
+**Judul:** Pemetaan Lokasi Stasiun Pengisian Kendaraan Listrik (SPKLU) di Kota Medan  
+**Program Studi:** Teknologi Rekayasa Perangkat Lunak  
 **Lokasi:** Kota Medan, Sumatera Utara, Indonesia  
 **Tahun:** 2026
 
