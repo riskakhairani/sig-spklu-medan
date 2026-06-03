@@ -190,9 +190,5 @@ Proyek ini menggunakan lisensi **MIT**. Bebas digunakan, dimodifikasi, dan didis
 ---
 
 <div align="center">
-
 Dibuat dengan ⚡ untuk mendukung transisi energi bersih Kota Medan
-
-**[⬆ Kembali ke atas](#)**
-
 </div>
