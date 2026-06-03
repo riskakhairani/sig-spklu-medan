@@ -131,47 +131,6 @@ CREATE TABLE spklu (
 
 ---
 
-## 🚀 Cara Deploy ke Netlify
-
-### Metode 1 — Drag & Drop (Termudah)
-
-1. Download atau clone repository ini
-2. Buka [app.netlify.com](https://app.netlify.com) dan login
-3. Di halaman utama, **drag & drop folder `sig-spklu-medan`** ke area deploy
-4. Tunggu ±30 detik hingga proses selesai
-5. Ubah nama site melalui **Site configuration → Change site name** → `sig-spklu-medan`
-6. Website live di `https://sig-spklu-medan.netlify.app` ✅
-
-### Metode 2 — Via GitHub (Auto-Deploy)
-
-```bash
-# 1. Clone repository
-git clone https://github.com/riskakhairani/sig-spklu-medan.git
-cd sig-spklu-medan
-
-# 2. Connect ke Netlify melalui dashboard:
-#    Add new site → Import an existing project → GitHub
-#    → Pilih repo → Publish directory: . → Deploy
-```
-
-### Konfigurasi `netlify.toml`
-
-File `netlify.toml` sudah disertakan untuk menangani redirect:
-
-```toml
-[[redirects]]
-  from = "/admin"
-  to   = "/admin.html"
-  status = 200
-
-[[redirects]]
-  from = "/admin.php"
-  to   = "/admin.html"
-  status = 301
-```
-
----
-
 ## 🔑 Akses Admin
 
 | Field | Value |
